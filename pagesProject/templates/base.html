@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>eldor.dev</title>
+</head>
+<body>
+<header>
+    <a href="{% url 'home' %}">Home Page | </a>
+    <a href="{% url 'about' %}">About | </a>
+    <a href="{% url 'news' %}">News | </a>
+    <a href="{% url 'founder' %}">Founder</a>
+
+</header>
+
+{% block content%}
+{% endblock content%}
+
+
+</body>
+</html>
